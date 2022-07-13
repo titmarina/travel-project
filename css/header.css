@@ -1,0 +1,53 @@
+.header {
+   margin: 0;
+   padding: 0;
+}
+
+.header__container {
+   background-image: url('../imegs/header/sky.png');
+   max-width: 1440px;
+   height: 920px;
+}
+
+.header__logo {
+   position: absolute;
+   left: 44px;
+    top: 37px;
+
+}
+
+.header__navigation-list-item {
+   list-style-type: none;
+   font-size: 16px;
+}
+
+.header__navigetion-link {
+   font-family: 'Forum';
+   font-weight: 400%;
+   text-decoration: none;
+   color: black;
+}
+
+.header__navigation-list {
+   display: flex;
+   position: relative;
+   max-width: 745px;
+   justify-content: space-between;
+   left: 292px;
+   top: 50px;
+}
+
+.header__buttom-call-me {
+   border: none;
+   background-color: transparent;
+
+}
+
+.header__buttom {
+   display: flex;
+   position: absolute;
+   position: absolute;
+   left: 86%;
+   top: 5%;
+
+}

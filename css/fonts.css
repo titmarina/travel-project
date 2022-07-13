@@ -1,0 +1,23 @@
+@font-face {
+   font-family: 'Forum';
+   font-weight: 400;
+   src: url('../fonts/forum/Forum-Regular.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Monrope';
+   font-family: 300;
+   src: url('../fonts/manrope/static/Manrope-Light.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Monrope';
+   font-family: 400;
+   src: url('../fonts/manrope/static/Manrope-Regular.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Monrope';
+   font-family: 500;
+   src: url('../fonts/manrope/static/Manrope-Medium.ttf') format('truetype');
+}
