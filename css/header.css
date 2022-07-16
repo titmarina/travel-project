@@ -1,18 +1,66 @@
-.header {
+body {
    margin: 0;
    padding: 0;
 }
 
-.header__container {
-   background-image: url('../imegs/header/sky.png');
+.header {
    max-width: 1440px;
-   height: 920px;
+   height: 1041px;
+   background: url('../imegs/header/clouds.png') no-repeat left -151px top 655px,
+      url('../imegs/header/gradient.png') no-repeat left 0px top 648px,
+      url('../imegs/header/mountains.png') no-repeat left -50px top 580px, url('../imegs/header/pins.png') no-repeat center,
+      url('../imegs/header/2.png') no-repeat left -54.07px top 433.8px,
+
+      url('../imegs/header/1.png') no-repeat left 0px top 360px, url('../imegs/header/sky.jpg') no-repeat;
+
 }
+
+/*.hesder-title {
+   display: flex;
+   position: relative;
+   font-family: 'Forum';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 120px;
+   text-align: center;
+   letter-spacing: 0.04em;
+   justify-content: center;
+   top: 50%;
+   color: #FCFCFC;
+}
+
+.header-subtitle {
+   position: absolute;
+   left: 651px;
+   top: 128px;
+   font-family: 'Forum';
+   font-weight: 400;
+   font-size: 25px;
+   text-align: center;
+   letter-spacing: 0.3em;
+   color: #0C0B10;
+}
+
+.header-title1 {
+   position: absolute;
+   left: 407px;
+   top: 418px;
+   font-family: 'Forum';
+   font-weight: 400;
+
+   color: #FCFCFC;
+}
+.header-title__img {
+   position: relative;
+   left: -105px;
+   top: 78px;
+   transform: translate(7%, 50%);
+}*/
 
 .header__logo {
    position: absolute;
    left: 44px;
-    top: 37px;
+   top: 37px;
 
 }
 
@@ -23,9 +71,11 @@
 
 .header__navigetion-link {
    font-family: 'Forum';
-   font-weight: 400%;
+   font-weight: 400;
+   font-size: 16px;
    text-decoration: none;
    color: black;
+
 }
 
 .header__navigation-list {
@@ -34,20 +84,57 @@
    max-width: 745px;
    justify-content: space-between;
    left: 292px;
-   top: 50px;
+   top: -53px;
+}
+
+.header__buttom {
+   display: flex;
+   position: relative;
+   top: -100px;
+
+}
+
+.header__buttom-call {
+   background-image: url('../imegs/button/Subtract.png');
+   display: flex;
+   position: relative;
+   width: 156px;
+   height: 40px;
+   left: 86%;
+}
+
+.header__buttom-call::before {
+   content: url('../imegs/button/Layer\ 3.png');
+   display: flex;
+   position: relative;
+   left: 67px;
+   bottom: 13px;
+
+}
+
+.header__buttom-call::after {
+   content: url('../imegs/button/Layer\ 4.png');
+   position: relative;
+   top: 34px;
+   right: 67px;
+
 }
 
 .header__buttom-call-me {
    border: none;
    background-color: transparent;
+   margin: 0;
+   padding: 0;
 
 }
 
-.header__buttom {
-   display: flex;
-   position: absolute;
-   position: absolute;
-   left: 86%;
-   top: 5%;
+.phone-number__link {
+
+   font-family: 'Forum';
+   font-weight: 400;
+   font-size: 15px;
+   text-decoration: none;
+   color: black;
 
 }
+
