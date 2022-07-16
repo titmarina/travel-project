@@ -84,13 +84,13 @@ body {
    max-width: 745px;
    justify-content: space-between;
    left: 292px;
-   top: -53px;
+   top: 47px;
 }
 
 .header__buttom {
    display: flex;
    position: relative;
-   top: -100px;
+   top: 1px;
 
 }
 
