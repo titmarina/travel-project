@@ -1,45 +1,76 @@
 body {
    margin: 0;
-   padding: 0;
 }
 
 .header {
-   max-width: 1440px;
-   height: 1041px;
-   background: url('../imegs/header/clouds.png') no-repeat left -151px top 655px,
+   padding: 1px;
+   position: relative;
+   height: 960px;
+   background:
+      url('../imegs/header/1.png') no-repeat left 0px top 360px, url('../imegs/header/sky.jpg') no-repeat;
+   /*background: url('../imegs/header/clouds.png') no-repeat left -151px top 655px,
       url('../imegs/header/gradient.png') no-repeat left 0px top 648px,
       url('../imegs/header/mountains.png') no-repeat left -50px top 580px, url('../imegs/header/pins.png') no-repeat center,
       url('../imegs/header/2.png') no-repeat left -54.07px top 433.8px,
 
-      url('../imegs/header/1.png') no-repeat left 0px top 360px, url('../imegs/header/sky.jpg') no-repeat;
+    , url('../imegs/header/sky.jpg') no-repeat;*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
 
 }
 
-/*.hesder-title {
-   display: flex;
-   position: relative;
+.header__title-img {
+   position: absolute;
+   bottom: -43px;
+   left: 0px;
+}
+
+
+.header__title-img--pins {
+   bottom: 30%;
+   transform: translate(6%);
+
+}
+
+.header__title {
+   position: absolute;
+   width: 936px;
+   height: 258px;
+   left: 252.66px;
+   top: 267px;
    font-family: 'Forum';
    font-style: normal;
    font-weight: 400;
-   font-size: 120px;
+   font-size: 172.951px;
+   line-height: 117px;
    text-align: center;
    letter-spacing: 0.04em;
-   justify-content: center;
-   top: 50%;
+   text-transform: uppercase;
    color: #FCFCFC;
+   transform: translateY(-40%);
 }
 
 .header-subtitle {
-   position: absolute;
-   left: 651px;
-   top: 128px;
-   font-family: 'Forum';
-   font-weight: 400;
-   font-size: 25px;
-   text-align: center;
-   letter-spacing: 0.3em;
-   color: #0C0B10;
+  position: absolute;
+width: 138px;
+height: 75px;
+left: 651px;
+top: 128px;
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 98.5%;
+text-align: center;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+color: #0C0B10;
+transform: translateY(-34px);
 }
+
+/*
 
 .header-title1 {
    position: absolute;
@@ -57,7 +88,7 @@ body {
    transform: translate(7%, 50%);
 }*/
 
-.header__logo {
+/*.header__logo {
    position: absolute;
    left: 44px;
    top: 37px;
@@ -137,4 +168,3 @@ body {
    color: black;
 
 }
-
