@@ -3,20 +3,16 @@ body {
 }
 
 .header {
+   width: 1440px;
    padding: 1px;
    position: relative;
    height: 960px;
-   background:
-      url('../imegs/header/1.png') no-repeat left 0px top 360px, url('../imegs/header/sky.jpg') no-repeat;
-   /*background: url('../imegs/header/clouds.png') no-repeat left -151px top 655px,
-      url('../imegs/header/gradient.png') no-repeat left 0px top 648px,
-      url('../imegs/header/mountains.png') no-repeat left -50px top 580px, url('../imegs/header/pins.png') no-repeat center,
-      url('../imegs/header/2.png') no-repeat left -54.07px top 433.8px,
-
-    , url('../imegs/header/sky.jpg') no-repeat;*/
    display: flex;
    justify-content: center;
    align-items: center;
+   background: url('../imegs/header/1.png') no-repeat left 0px top 360px,
+      url('../imegs/header/sky.jpg') no-repeat;
+
 
 
 }
@@ -53,45 +49,51 @@ body {
 }
 
 .header-subtitle {
-  position: absolute;
-width: 138px;
-height: 75px;
-left: 651px;
-top: 128px;
-font-family: 'Forum';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 98.5%;
-text-align: center;
-letter-spacing: 0.3em;
-text-transform: uppercase;
-color: #0C0B10;
-transform: translateY(-34px);
+   position: absolute;
+   width: 138px;
+   height: 75px;
+   left: 651px;
+   top: 128px;
+   font-family: 'Forum';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 98.5%;
+   text-align: center;
+   letter-spacing: 0.3em;
+   text-transform: uppercase;
+   color: #0C0B10;
+   transform: translateY(-34px);
 }
 
-/*
 
-.header-title1 {
+.header__title-places {
    position: absolute;
-   left: 407px;
-   top: 418px;
-   font-family: 'Forum';
-   font-weight: 400;
 
+   left: 436px;
+   top: 426px;
+   font-family: 'Forum';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 141.614px;
+   line-height: 100%;
+   text-align: center;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
    color: #FCFCFC;
 }
-.header-title__img {
-   position: relative;
-   left: -105px;
-   top: 78px;
-   transform: translate(7%, 50%);
-}*/
 
-/*.header__logo {
+.header__title-img--montains {
+   width: 1450px;
+   height: 402px;
+   left: -11px;
+   top: 603px;
+}
+
+.header__logo {
    position: absolute;
    left: 44px;
-   top: 37px;
+   top: 13px;
 
 }
 
@@ -101,6 +103,7 @@ transform: translateY(-34px);
 }
 
 .header__navigetion-link {
+   margin: 10px;
    font-family: 'Forum';
    font-weight: 400;
    font-size: 16px;
@@ -113,16 +116,15 @@ transform: translateY(-34px);
    display: flex;
    position: relative;
    max-width: 745px;
-   justify-content: space-between;
-   left: 292px;
-   top: 47px;
+   left: -7px;
+   bottom: 411px;
 }
 
 .header__buttom {
    display: flex;
    position: relative;
-   top: 1px;
-
+   left: 243px;
+   bottom: 454px;
 }
 
 .header__buttom-call {
