@@ -34,18 +34,18 @@ body {
    position: absolute;
    width: 936px;
    height: 258px;
-   left: 252.66px;
+   left: 249.66px;
    top: 267px;
    font-family: 'Forum';
    font-style: normal;
    font-weight: 400;
-   font-size: 172.951px;
-   line-height: 117px;
+   font-size: 200px;
+   line-height: 132px;
    text-align: center;
-   letter-spacing: 0.04em;
+   letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #FCFCFC;
-   transform: translateY(-40%);
+   transform: translateY(-50%);
 }
 
 .header-subtitle {
@@ -70,8 +70,8 @@ body {
 .header__title-places {
    position: absolute;
 
-   left: 436px;
-   top: 426px;
+   left: 485px;
+   top: 418px;
    font-family: 'Forum';
    font-style: normal;
    font-weight: 400;
@@ -215,15 +215,64 @@ body {
 }
 
 .header__filtr-form {
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 25px;
+   color: #79655E;
+   position: absolute;
+}
 
-color: #79655E;
-position: absolute;
-    left: 223px;
-    bottom: 130px;
+.destination {
+   color: #0C0B10;
+   border: none;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+}
 
+.location {
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 25px;
+   left: -91px;
+   top: 252px;
+}
+
+.city {
+   left: 215px;
+   top: 251px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+
+}
+
+
+.date {
+   left: 455px;
+   top: 251px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 25px;
+
+}
+
+.persons {
+   left: 640px;
+   top: 251px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
 }
