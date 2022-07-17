@@ -213,3 +213,17 @@ body {
    color: #79655E;
 
 }
+
+.header__filtr-form {
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+
+color: #79655E;
+position: absolute;
+    left: 223px;
+    bottom: 130px;
+
+}
