@@ -138,7 +138,7 @@ body {
 
 .header__buttom-call::before {
    content: url('../imegs/button/Layer\ 3.png');
-   display: flex;
+
    position: relative;
    left: 67px;
    bottom: 13px;
@@ -168,5 +168,48 @@ body {
    font-size: 15px;
    text-decoration: none;
    color: black;
+
+}
+
+.header__filtr-img--48 {
+   position: absolute;
+   width: 1177px;
+   height: 158px;
+   left: 129px;
+   top: 744px;
+}
+
+.header__filtr-img--30 {
+   position: absolute;
+   width: 330px;
+   height: 55px;
+   left: 556px;
+   top: 730px;
+}
+
+.header__filtr-img--subtract {
+   position: absolute;
+   width: 280px;
+   height: 61px;
+   left: 581px;
+   top: 712px;
+}
+
+.header__filtr-img--layer3 {
+   position: absolute;
+   bottom: 247px;
+   left: 696px;
+}
+
+.header__filtr-title {
+   position: absolute;
+   left: 602px;
+   top: 725.92px;
+   font-family: 'Forum';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 21px;
+   letter-spacing: 0.04em;
+   color: #79655E;
 
 }
