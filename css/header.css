@@ -123,7 +123,7 @@ body {
 .header__buttom {
    display: flex;
    position: relative;
-   left: 243px;
+   left: 254px;
    bottom: 454px;
 }
 
@@ -133,7 +133,7 @@ body {
    position: relative;
    width: 156px;
    height: 40px;
-   left: 86%;
+   left: 89%;
 }
 
 .header__buttom-call::before {
@@ -149,7 +149,7 @@ body {
    content: url('../imegs/button/Layer\ 4.png');
    position: relative;
    top: 34px;
-   right: 67px;
+   right: 48px;
 
 }
 
@@ -204,11 +204,11 @@ body {
 .header__filtr-title {
    position: absolute;
    left: 602px;
-   top: 725.92px;
+   top: 710.92px;
    font-family: 'Forum';
    font-style: normal;
    font-weight: 400;
-   font-size: 21px;
+   font-size: 27px;
    letter-spacing: 0.04em;
    color: #79655E;
 
@@ -234,45 +234,103 @@ body {
    line-height: 25px;
 }
 
+.location::before {
+ content: url('../imegs/filter/icon_destination.png');
+ position: absolute;
+ left: -16px;
+ top: 2px;
+}
+
+
 .location {
    font-family: 'Manrope';
    font-style: normal;
    font-weight: 300;
    font-size: 18px;
    line-height: 25px;
-   left: -91px;
+   left: -167px;
    top: 252px;
 }
 
 .city {
-   left: 215px;
+   left: 173px;
    top: 251px;
    font-family: 'Manrope';
    font-style: normal;
    font-weight: 500;
    font-size: 18px;
-   line-height: 25px;
+   line-height: 25px;}
+
+.city::before {
+content: url('../imegs/filter/icon_travel.png');
+position: absolute;
+left: -22px;
 
 }
 
-
 .date {
-   left: 455px;
+   left: 418px;
    top: 251px;
    font-family: 'Manrope';
    font-style: normal;
    font-weight: 300;
    font-size: 18px;
    line-height: 25px;
-
 }
 
+.date::before {
+   content: url('../imegs/filter/icon_calendar.png');
+   position: absolute;
+   left: -22px;
+      }
+
 .persons {
-   left: 640px;
+   left: 591px;
    top: 251px;
    font-family: 'Manrope';
    font-style: normal;
    font-weight: 500;
    font-size: 18px;
    line-height: 25px;
+}
+
+.persons::before {
+content: url('../imegs/filter/icon_travellers.png');
+position: absolute;
+left: -22px;
+}
+
+.search {
+   position: absolute;
+   width: 126px;
+   height: 70px;
+   left: 731px;
+   top: 218px;
+}
+
+.search::before {
+   content: url('../imegs/filter/icon_search.png');
+   position: relative;
+   left: 21.58%;
+   top: 73.75%;
+
+
+}
+
+.button-search {
+   border: none;
+}
+
+.find {
+   position: relative;
+   bottom: 78px;
+   left: 61px;
+   font-family: 'Forum';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   letter-spacing: 0.04em;
+   color: #FFFFFF;
+
+
 }
