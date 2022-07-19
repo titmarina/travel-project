@@ -1,0 +1,40 @@
+.contect {
+    width: 1440px;
+}
+
+.blok-1__title-content {
+    position: absolute;
+    left: 590px;
+    top: 883px;
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 58px;
+    text-align: center;
+    color: #0C0B10;
+
+}
+
+.blok-1__title-content::before {
+content: url('../imegs/blok-1/rhombus.png');
+position: absolute;
+left: 29.96%;
+bottom: -54.11%;
+}
+
+.blok-1__navigationn {
+  
+}
+
+.blok-1__navigation-list {
+    position: absolute;
+    width: 948px;
+    height: 24px;
+    left: 250.46px;
+    top: 1141px;
+    
+}
+.blok-1__navigation-list-item {
+
+}

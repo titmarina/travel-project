@@ -134,6 +134,7 @@ body {
    width: 156px;
    height: 40px;
    left: 89%;
+ 
 }
 
 .header__buttom-call::before {
@@ -300,37 +301,35 @@ position: absolute;
 left: -22px;
 }
 
-.search {
+.button-search {
    position: absolute;
    width: 126px;
    height: 70px;
-   left: 731px;
-   top: 218px;
+   left: 739px;
+    top: 247px;
+   background: #0C0B10;
+   border-radius: 121px;
 }
 
-.search::before {
+.button-search::before {
    content: url('../imegs/filter/icon_search.png');
+   position: absolute;
+   left: 14px;
+   top: 22px;
+   
+   }
+
+
+.button-search-find {
    position: relative;
-   left: 21.58%;
-   top: 73.75%;
-
-
-}
-
-.button-search {
-   border: none;
-}
-
-.find {
-   position: relative;
-   bottom: 78px;
-   left: 61px;
+   bottom: -246px;
+   left: 786px;
    font-family: 'Forum';
    font-style: normal;
    font-weight: 400;
    font-size: 24px;
    letter-spacing: 0.04em;
    color: #FFFFFF;
-
+   z-index: 1
 
 }
