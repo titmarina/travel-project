@@ -19,15 +19,24 @@ body {
 
 .header__title-img {
    position: absolute;
-   bottom: -43px;
+   bottom: -44px;
    left: 0px;
 }
-
 
 .header__title-img--pins {
    bottom: 30%;
    transform: translate(6%);
 
+}
+.header__title-img--clouds {
+position: absolute;
+top: 621px;
+
+}
+
+.header__title-img--gradient {
+   position: absolute;
+   top: 625px;
 }
 
 .header__title {
