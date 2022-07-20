@@ -5,19 +5,19 @@
 }
 
 @font-face {
-   font-family: 'Monrope';
+   font-family: 'Manrope';
    font-family: 300;
    src: url('../fonts/manrope/static/Manrope-Light.ttf') format('truetype');
 }
 
 @font-face {
-   font-family: 'Monrope';
+   font-family: 'Manrope';
    font-family: 400;
    src: url('../fonts/manrope/static/Manrope-Regular.ttf') format('truetype');
 }
 
 @font-face {
-   font-family: 'Monrope';
+   font-family: 'Manrope';
    font-family: 500;
    src: url('../fonts/manrope/static/Manrope-Medium.ttf') format('truetype');
 }
