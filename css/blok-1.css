@@ -66,3 +66,10 @@
     text-decoration: none;
     color: #79655E;
 }
+
+.blok-1__navigation-link:hover {
+    background-image: url('../imegs/blok-1/icon.png');
+    background-repeat: no-repeat;
+   
+    
+}

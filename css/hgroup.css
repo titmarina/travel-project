@@ -1,0 +1,27 @@
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header-subtitle {
+   
+    font-size: 25px;
+    line-height: 98.5%;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #0C0B10;
+    font-weight: 400;
+} 
+
+.header__title {
+    
+    font-size: 200px;
+    line-height: 132px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FCFCFC;
+    font-weight: 400;
+   
+ }
