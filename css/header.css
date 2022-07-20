@@ -1,9 +1,10 @@
 body {
    margin: 0;
+   min-width: 1440px;
 }
 
 .header {
-   width: 1440px;
+   /*width: 1440px;*/
    padding: 1px;
    position: relative;
    height: 960px;
@@ -146,7 +147,6 @@ top: 621px;
 
 .header__buttom-call::before {
    content: url('../imegs/button/Layer\ 3.png');
-
    position: relative;
    left: 67px;
    bottom: 13px;
@@ -312,7 +312,7 @@ left: -22px;
    position: absolute;
    width: 126px;
    height: 70px;
-   left: 739px;
+   left: 733px;
     top: 247px;
    background: #0C0B10;
    border-radius: 121px;
