@@ -1,6 +1,8 @@
 .header__abctraction {
-position: relative;
-  
+ position: relative;
+ 
+ 
+
      
 }
 
@@ -14,7 +16,7 @@ position: relative;
 .header__abctraction--pins {
     position: absolute;
     bottom: 152px;
-    left: -94px;
+    left: 70px;
     z-index: 5;
 }
 
@@ -24,14 +26,19 @@ position: relative;
 
 .header__abctraction--2 {
     position: absolute;
-    bottom: -178px;
-    left: -173px;
-   z-index: 1;
+    width: 1520px;
+    height: 612.22px;
+    bottom: -217px;
+    left: -40px;
+    z-index: 1;
+
 }
 
 .header__abctraction--1 {
     position: absolute;
-    bottom: -147px;
-    left: -83px;
-
-}
+    width: 1519px;
+    height: 687px;
+    bottom: -218px;
+    left: -40px;
+   
+   }

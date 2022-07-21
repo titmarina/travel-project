@@ -1,17 +1,18 @@
 body {
    margin: 0;
+   
+   
 }
 
 .header {
-   background:
-      /*url('../imegs/header/1.png') no-repeat left 0px top 360px,*/
-      url('../images/header/sky.jpg') no-repeat;
+   background: url('../images/header/sky.jpg') no-repeat;
    background-position: center;
    min-height: 960px;
    background-size: cover;
    font-family: 'Forum';
    font-style: normal;
    font-weight: 400;
+   overflow: hidden;
 
 }
 
@@ -30,7 +31,7 @@ body {
 
 .header__navigation-list {
    display: flex;
-  }
+}
 
 
 .header__navigetion-link {
@@ -43,16 +44,22 @@ body {
 
 }
 
+.header__navigetion-link:hover {
+   /* background: url('../images/blok-1/icon.png') no-repeat center top 10px;*/
+   text-decoration: underline;
+}
+
 .header__button {
-  background-image: url('../images/button/Subtract.png');
-   background-repeat: no-repeat;
-   background-position: center;
+   background-image: url('../images/button/Subtract.png');
    border: none;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
 .button:hover {
    background: rgba(255, 255, 255, .5);
 }
+
 
 
 /*.header__title-img {
@@ -97,12 +104,7 @@ top: 621px;
    color: #FCFCFC;
 }
 
-.header__title-img--montains {
-   width: 1437px;
-   height: 402px;
-   left: 3px;
-   top: 603px;
-}
+
 
 .header__logo {
    position: absolute;
