@@ -1,17 +1,12 @@
 .header__abctraction {
- position: relative;
- 
- 
-
-     
+    position: relative;
 }
 
 .header__abctraction--montains {
     position: absolute;
     bottom: -176px;
-    left: -171px;  
+    left: -171px;
 }
-
 
 .header__abctraction--pins {
     position: absolute;
@@ -31,7 +26,6 @@
     bottom: -217px;
     left: -40px;
     z-index: 1;
-
 }
 
 .header__abctraction--1 {
@@ -40,5 +34,5 @@
     height: 687px;
     bottom: -218px;
     left: -40px;
-   
-   }
+    width: 100vw;
+}

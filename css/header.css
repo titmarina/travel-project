@@ -1,65 +1,60 @@
 body {
-   margin: 0;
-   
-   
+    margin: 0;
 }
 
 .header {
-   background: url('../images/header/sky.jpg') no-repeat;
-   background-position: center;
-   min-height: 960px;
-   background-size: cover;
-   font-family: 'Forum';
-   font-style: normal;
-   font-weight: 400;
-   overflow: hidden;
-
+    background: url('../images/header/sky.jpg') no-repeat;
+    background-position: center;
+    min-height: 960px;
+    background-size: cover;
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    overflow: hidden;
 }
 
 .header__menu {
-   display: flex;
-   align-items: center;
-   padding: 48px;
-   justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 48px;
+    justify-content: space-between;
 }
 
-
 .header__navigation-list-item {
-   list-style-type: none;
-   font-size: 16px;
+    list-style-type: none;
+    font-size: 16px;
 }
 
 .header__navigation-list {
-   display: flex;
+    display: flex;
 }
 
-
 .header__navigetion-link {
-   margin: 10px;
-   font-family: 'Forum';
-   font-weight: 400;
-   font-size: 16px;
-   text-decoration: none;
-   color: black;
-
+    padding: 10px;
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
 }
 
 .header__navigetion-link:hover {
-   /* background: url('../images/blok-1/icon.png') no-repeat center top 10px;*/
-   text-decoration: underline;
+    background-image: url('../images/blok-1/icon.png');
+    background-repeat: no-repeat;
+    background-position: center 25px;
+    /* text-decoration: underline; */
 }
 
 .header__button {
-   background-image: url('../images/button/Subtract.png');
-   border: none;
-   background-position: center;
-   background-repeat: no-repeat;
+    background-image: url('../images/button/Subtract.png');
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .button:hover {
-   background: rgba(255, 255, 255, .5);
+    background: rgba(255, 255, 255, .5);
 }
-
 
 
 /*.header__title-img {
