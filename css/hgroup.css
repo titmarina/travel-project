@@ -3,6 +3,12 @@
     margin: 0 auto;
 }
 
+.header__hgroup {
+    position: relative;
+        display: flex;
+    justify-content: center;
+
+}
 .header-subtitle {
     font-size: 25px;
     line-height: 98.5%;
@@ -14,19 +20,28 @@
 } 
 
 .header__title {
-    position: relative;
-    font-size: 200px;
-    line-height: 132px;
+    position: absolute;
+    font-size: 197.951px;
+line-height: 129px;
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FCFCFC;
     font-weight: 400;
-    z-index: 1;
-   
+    
  }
 
- .subtitle {
-    display: block;
-    margin-top: 30px;
+ .header__title--subtitle {
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 141.614px;
+line-height: 100%;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #FCFCFC;
+
+
+   
  }

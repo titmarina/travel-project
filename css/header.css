@@ -16,7 +16,7 @@ body {
 .header__menu {
     display: flex;
     align-items: center;
-    padding: 48px;
+    padding: 32px;
     justify-content: space-between;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .header__navigetion-link {
-    padding: 10px;
+    padding: 30px;
     font-family: 'Forum';
     font-weight: 400;
     font-size: 16px;
@@ -41,12 +41,12 @@ body {
 .header__navigetion-link:hover {
     background-image: url('../images/blok-1/icon.png');
     background-repeat: no-repeat;
-    background-position: center 25px;
-    /* text-decoration: underline; */
+    background-position: center 45px;
+     
 }
 
 .header__button {
-    background-image: url('../images/button/Subtract.png');
+    background: url('../images/button/Subtract.png');
     border: none;
     background-position: center;
     background-repeat: no-repeat;
