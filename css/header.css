@@ -2,18 +2,15 @@ body {
    margin: 0;
 }
 
-.header { 
-    background: url('../images/header/1.png') no-repeat left 0px top 360px,
-      url('../images/header/sky.jpg') no-repeat;
-   
-  
+.header {
+   background: url('../images/header/sky.jpg');
    min-height: 960px;
    background-size: cover;
-   font-family: 'Forum';
+      font-family: 'Forum';
    font-style: normal;
    font-weight: 400;
    overflow: hidden;
- 
+
 }
 
 .header__menu {
@@ -23,95 +20,13 @@ body {
    justify-content: space-between;
 }
 
-/*.header__title-img {
-   position: absolute;
-   bottom: -44px;
-   left: 0px;
+.header__navigation-list {
+   display: flex;
+   max-width: 745px;
+   left: -7px;
+   bottom: 411px;
 }
 
-.header__title-img--pins {
-   bottom: 30%;
-   transform: translate(6%);
-
-}
-
-.header__title-img--clouds {
-   position: absolute;
-   top: 621px;
-
-}
-
-.header__title-img--gradient {
-   position: absolute;
-   top: 625px;
-}
-
-.header__title {
-   position: absolute;
-   width: 936px;
-   height: 258px;
-   left: 249.66px;
-   top: 267px;
-   font-family: 'Forum';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 200px;
-   line-height: 132px;
-   text-align: center;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: #FCFCFC;
-   transform: translateY(-50%);
-}
-
-.header-subtitle {
-   position: absolute;
-   width: 138px;
-   height: 75px;
-   left: 651px;
-   top: 128px;
-   font-family: 'Forum';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 25px;
-   line-height: 98.5%;
-   text-align: center;
-   letter-spacing: 0.3em;
-   text-transform: uppercase;
-   color: #0C0B10;
-   transform: translateY(-34px);
-}
-
-
-.header__title-places {
-   position: absolute;
-
-   left: 485px;
-   top: 418px;
-   font-family: 'Forum';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 141.614px;
-   line-height: 100%;
-   text-align: center;
-   letter-spacing: 0.04em;
-   text-transform: uppercase;
-   color: #FCFCFC;
-}
-
-.header__title-img--montains {
-   width: 1450px;
-   height: 402px;
-   left: -11px;
-   top: 603px;
-}
-
-.header__logo {
-   position: absolute;
-   left: 44px;
-   top: 13px;
-
-}*/
 
 .header__navigation-list-item {
    list-style-type: none;
@@ -119,7 +34,7 @@ body {
 }
 
 .header__navigetion-link {
-   margin: 10px;
+   padding: 10px;
    font-family: 'Forum';
    font-weight: 400;
    font-size: 16px;
@@ -128,71 +43,45 @@ body {
 
 }
 
-.header__navigation-list {
-   display: flex;
-   
-   max-width: 745px;
-   left: -7px;
-   bottom: 411px;
-}
-
 .header__navigetion-link:hover {
    background-image: url('../images/blok-1/icon.png');
    background-repeat: no-repeat;
-   background-position: center 45px;
-    
+   background-position: center top 25px;
+ 
+
 }
 
-/*S
-.header__buttom {
+.header__button {
    display: flex;
-     left: 254px;
-   bottom: 454px;
-}
-
-.header__buttom-call {
-   background-image: url('../imegs/button/Subtract.png');
-   display: flex;
-   width: 156px;
+   background-image: url('../images/button/Subtract.png');
    height: 40px;
    left: 89%;
-
-}
-
-.header__buttom-call::before {
-   content: url('../imegs/button/Layer\ 3.png');
-
-   
-   left: 67px;
-   bottom: 13px;
-
-}
-
-.header__buttom-call::after {
-   content: url('../imegs/button/Layer\ 4.png');
-
-   top: 34px;
-   right: 48px;
-
-}
-
-.header__buttom-call-me {
    border: none;
-   background-color: transparent;
-   margin: 0;
-   padding: 0;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+
+.header__button:hover {
+   background: rgba(255, 255, 255, .5);
+}
+
+.header__button::before {
+   content: url('../images/button/Layer\ 3.png');
+   position: relative;
+   left: 74px;
+   bottom: 24px;
 
 }
 
-.phone-number__link {
-
-   font-family: 'Forum';
-   font-weight: 400;
-   font-size: 15px;
-   text-decoration: none;
-   color: black;
-
+.header__button::after {
+   content: url('../images/button/Layer\ 4.png');
+   position: relative;
+    top: 23px;
+    right: 73px;
 }
+
+/*
 
 .header__filtr-img--48 {
    position: absolute;

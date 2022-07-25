@@ -1,0 +1,48 @@
+
+
+.header__abctraction--2 {
+    position: absolute;
+    top: 469px;
+    left: -17px;
+    width: 100vw;
+   
+}
+
+.header__abstraction--1 {
+ position: absolute;
+ width: 100vw;
+ top: 239px;
+}
+
+.header__abctraction--pins {
+    position: absolute;
+    top: 383px;
+    left: 97px;
+}
+
+
+.header__abctraction--montains {
+    position: absolute;
+    left: -17px;
+    top: 633px;
+    z-index: 1;
+    width: 100vw;
+
+}
+
+.header__abctraction--gradient {
+    position: absolute;
+    top: 751px;
+    left: -17px;
+    width: 100vw;
+    z-index: 1;
+}
+
+.header__abctraction--clouds {
+    position: absolute;
+    top: 718px;
+    left: -17px;
+    width: 100vw;
+    z-index: 2;
+
+}
