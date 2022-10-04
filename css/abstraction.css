@@ -2,16 +2,15 @@
 
 .header__abctraction--2 {
     position: absolute;
-    top: 469px;
-    left: -17px;
-    width: 100vw;
+    top: 436px;
+    left: 0px;
+    width: 100%;
    
 }
 
 .header__abstraction--1 {
- position: absolute;
- width: 100vw;
- top: 239px;
+ width: 100%;
+
 }
 
 .header__abctraction--pins {

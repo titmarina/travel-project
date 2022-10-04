@@ -1,16 +1,14 @@
 body {
-   margin: 0;
+   max-width: 100%;
+   width: 1920px;
+   margin: 0 auto;
 }
 
 .header {
-   background: url('../images/header/sky.jpg');
-   min-height: 960px;
-   background-size: cover;
-      font-family: 'Forum';
-   font-style: normal;
-   font-weight: 400;
+  background: url('../images/header/sky.jpg');
+  background-size: cover; 
+  min-height: 960px;  
    overflow: hidden;
-
 }
 
 .header__menu {

@@ -1,18 +1,12 @@
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .header__hgroup {
-    position: relative;
     display: flex;
-    justify-content: center;
-
+   flex-direction: row;
+   justify-content: center;
 }
+
 
 .header-subtitle {
-    position: absolute;
-    font-size: 25px;
+     font-size: 25px;
     line-height: 98.5%;
     text-align: center;
     letter-spacing: 0.3em;
@@ -33,6 +27,15 @@
    
 
 }
+
+
+
+/*.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
 
 .header__title--subtitle {
     position: absolute;
