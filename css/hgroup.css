@@ -1,12 +1,12 @@
 .header__hgroup {
     display: flex;
-   flex-direction: row;
-   justify-content: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
 .header-subtitle {
-     font-size: 25px;
+    font-size: 25px;
     line-height: 98.5%;
     text-align: center;
     letter-spacing: 0.3em;
@@ -24,18 +24,7 @@
     text-align: center;
     letter-spacing: 0.04em;
     color: #FCFCFC;
-   
-
 }
-
-
-
-/*.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-
 
 .header__title--subtitle {
     position: absolute;
@@ -47,4 +36,5 @@
     text-align: center;
     letter-spacing: 0.04em;
     color: #FCFCFC;
+    margin-top: 392px;
 }

@@ -23,11 +23,11 @@
 .header__abctraction--montains {
     position: absolute;
     left: -17px;
-    top: 633px;
+    top: 598px;
     z-index: 1;
-    width: 100vw;
-
+    width: 100%;
 }
+
 
 .header__abctraction--gradient {
     position: absolute;
