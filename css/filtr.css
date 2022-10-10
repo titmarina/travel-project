@@ -1,0 +1,156 @@
+.header__filtr {
+   z-index: 2;
+   position: absolute;
+}
+
+.header__filtr-img--48 {
+   margin: -128px 165px;
+}
+
+.header__filtr-img--30 {
+   top: 460px;
+   position: absolute;
+   left: 569px;
+
+}
+
+.header__filtr-img--subtract {
+   margin: -6px 463px 0 594px;
+
+}
+
+.header__filtr-img--layer3 {
+   margin: 430px 695px 0 710px;
+}
+
+.header__filtr-title {
+   position: absolute;
+   left: 602px;
+   top: 710.92px;
+   font-family: 'Forum';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 27px;
+   letter-spacing: 0.04em;
+   color: #79655E;
+
+}
+
+.header__filtr-form {
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 25px;
+   color: #79655E;
+   position: absolute;
+}
+
+.destination {
+   color: #0C0B10;
+   border: none;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.location::before {
+ content: url('../images/filter/icon_destination.svg');
+ position: absolute;
+ left: -16px;
+ top: 2px;
+}
+
+
+.location {
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 25px;
+   left: -167px;
+   top: 252px;
+}
+
+.city {
+   left: 173px;
+   top: 251px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;}
+
+.city::before {
+content: url('../images/filter/icon_travel.svg');
+position: absolute;
+left: -22px;
+
+}
+
+.date {
+   left: 418px;
+   top: 251px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.date::before {
+   content: url('../images/filter/icon_calendar.svg');
+   position: absolute;
+   left: -22px;
+      }
+
+.persons {
+   left: 591px;
+   top: 251px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.persons::before {
+content: url('../images/filter/icon_travellers.svg');
+position: absolute;
+left: -22px;
+}
+
+.button-search {
+   position: absolute;
+   width: 126px;
+   height: 70px;
+   left: 739px;
+    top: 247px;
+   background: #0C0B10;
+   border-radius: 121px;
+}
+
+.button-search::before {
+   content: url('../images/filter/icon_search.png');
+   position: absolute;
+   left: 14px;
+   top: 22px;
+   
+   }
+
+
+.button-search-find {
+   position: relative;
+   bottom: -246px;
+   left: 786px;
+   font-family: 'Forum';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   letter-spacing: 0.04em;
+   color: #FFFFFF;
+   z-index: 1
+
+}

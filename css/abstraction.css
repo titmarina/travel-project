@@ -2,8 +2,7 @@
 
 .header__abctraction--2 {
     position: absolute;
-    top: 436px;
-    left: 0px;
+    margin-top: 157px;
     width: 100%;
    
 }
@@ -31,9 +30,8 @@
 
 .header__abctraction--gradient {
     position: absolute;
-    top: 751px;
-    left: -17px;
-    width: 100vw;
+    margin-top: 500px;
+    width: 100%;
     z-index: 1;
 }
 

@@ -1,5 +1,7 @@
 .header {
-  background: url('../images/header/sky.jpg');
+  background: url('../images/header/1.png'), url('../images/header/sky.jpg');
+  background-position: 0 260px, 0 0; 
+  background-repeat: no-repeat;
   background-size: cover; 
   min-height: 960px;  
    overflow: hidden;
