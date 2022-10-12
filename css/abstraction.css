@@ -37,9 +37,7 @@
 
 .header__abctraction--clouds {
     position: absolute;
-    top: 718px;
-    left: -17px;
-    width: 100%;
+    top: 680px; 
     z-index: 1;
 
 }

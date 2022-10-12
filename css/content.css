@@ -4,16 +4,6 @@
 
 }
 
-.contect {
-   
-
-}
-
-.blok-1__title {
-  
-
-}
-
 .blok-1__title-content {
     font-family: 'Forum';
     font-style: normal;
@@ -22,46 +12,35 @@
     line-height: 58px;
     text-align: center;
     color: #0C0B10;
+    margin-top: -179px;
 }
 
-.blok-1__title-content::before {
-    content: url('../images/blok-1/rhombus.png');
-  
+.decoration_rhombus {
+    margin: 73px 506px 0;
 }
 
-.blok-1__navigation {
-  
+.blok-1__navigation-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+
+
+.blok-1__navigetion-link {
     font-family: 'Forum';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 98.5%;
-    color: #79655E;
-
-}
-
-
-.blok-1__navigation-list {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-
-}
-
-.blok-1__navigation-list-item {
-    list-style-type: none;
-    font-size: 24px;
-
-}
-
-.blok-1__navigation-link {
+    color: #0C0B10;
     text-decoration: none;
-    color: #79655E;
 }
 
-.blok-1__navigation-link:hover {
+.blok-1__navigetion-link:hover {
     background-image: url('../images/blok-1/icon.png');
     background-repeat: no-repeat;
-
-
+    background-position: center top 25px;
+    padding: 5px;
 }

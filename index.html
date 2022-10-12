@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
    <link rel="stylesheet" href="./css/main.css">
-   <link rel="stylesheet" href="./JS/index.js">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
    <link rel="stylesheet" href="../travel-project-6/css/header.css">
    <link rel="shortcut icon" href="../travel-project/images/header/logo.svg" type="image/png">
    <title>LuxTrips</title>
@@ -121,9 +121,10 @@
 
                   <div class="header__filtr-button search">
                      <form class="button__search" method="get">
-                        <button class="button_search" type="submit"> <p class="button_search-find">FIND</p>
+                        <button class="button_search" type="submit">
+                           <p class="button_search-find">FIND</p>
                         </button>
-                       
+
                      </form>
                   </div>
                </div>
@@ -132,52 +133,78 @@
          </div>
       </div>
    </header>
-   
+
    <main class="main">
+
       <section class="">
-      <div class="contect">
-         <div class="blok-1__title">
-            <h3 class="blok-1__title-content">Top Rated<br>Experiences</h3>
-         </div>
-         <div>
-            <div class="blok-1__menu">
-               <nav class="blok-1__navigation">
-                  <ul class="blok-1__navigation-list">
-                     <li class="blok-1__navigation-list-item">
-                        <a href="#">World</a>
-                     </li>
-                     <li class="blok-1__navigation-list-item">
-                        <a href="#">Africa</a>
-                     </li>
-                     <li class="blok-1__navigation-list-item">
-                        <a href="#">Asia</a>
-                     </li>
-                     <li class="blok-1__navigation-list-item">
-                        <a href="#">Europe</a>
-                     </li>
-                     <li class="blok-1__navigation-list-item">
-                        <a href="#">North America</a>
-                     </li>
-                     <li class="blok-1__navigation-list-item">
-                        <a href="#">South America</a>
-                     </li>
-                     <li class="blok-1__navigation-list-item">
-                        <a href="#">Antarctica</a>
-                     </li>
-                     <li class="blok-1__navigation-list-item">
-                        <a href="#">Australia</a>
-                     </li>
-                  </ul>
-               </nav>
+
+         <div class="contect">
+            <div class="blok-1__title">
+               <img class="decoration_rhombus" src="../travel-project/images/blok-1/rhombus.png">
+               <h3 class="blok-1__title-content">Top Rated<br>Experiences</h3>
+
+            </div>
+            <div>
+               <div class="blok-1__menu">
+                  <nav class="blok-1__navigation">
+                     <ul class="blok-1__navigation-list">
+                        <li class="blok-1__navigation-list-item">
+                           <a class="blok-1__navigetion-link" href="#">World</a>
+                        </li>
+                        <li class="blok-1__navigation-list-item">
+                           <a class="blok-1__navigetion-link" href="#">Africa</a>
+                        </li>
+                        <li class="blok-1__navigation-list-item">
+                           <a class="blok-1__navigetion-link" href="#">Asia</a>
+                        </li>
+                        <li class="blok-1__navigation-list-item">
+                           <a class="blok-1__navigetion-link" href="#">Europe</a>
+                        </li>
+                        <li class="blok-1__navigation-list-item">
+                           <a class="blok-1__navigetion-link" href="#">North America</a>
+                        </li>
+                        <li class="blok-1__navigation-list-item">
+                           <a class="blok-1__navigetion-link" href="#">South America</a>
+                        </li>
+                        <li class="blok-1__navigation-list-item">
+                           <a class="blok-1__navigetion-link" href="#">Antarctica</a>
+                        </li>
+                        <li class="blok-1__navigation-list-item">
+                           <a class="blok-1__navigetion-link" href="#">Australia</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+            <div class="slider__container">
+               <!-- Slider main container -->
+               <div class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                     <!-- Slides -->
+                     <div class="swiper-slide"><img src="../travel-project/images/slider/Mask Group.png"></div>
+                     <div class="swiper-slide"><img src="../travel-project/images/slider/Mask Group (1).png"></div>
+                     <div class="swiper-slide"><img src="../travel-project/images/slider/Mask Group (2).png"></div>
+                     ...
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+
+                  <!-- If we need scrollbar -->
+                  <div class="swiper-scrollbar"></div>
+               </div>
             </div>
          </div>
-      </div>
-   </section>
+      </section>
 
    </main>
 
 
-
+   <script src="../travel-project/JS/index.js"></script>
 </body>
 
 </html>
