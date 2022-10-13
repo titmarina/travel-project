@@ -34,11 +34,13 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 98.5%;
-    color: #0C0B10;
+    color: #79655E;
     text-decoration: none;
 }
 
 .blok-1__navigetion-link:hover {
+    font-size: 24px;
+    color: #0C0B10;
     background-image: url('../images/blok-1/icon.png');
     background-repeat: no-repeat;
     background-position: center top 25px;

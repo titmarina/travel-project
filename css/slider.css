@@ -1,5 +1,15 @@
 .slider__container {
-    width: 1110px;
+    position: absolute;
+    max-width: 1110px;
     margin-top: 20px;
+    overflow: hidden;
 }
 
+.swiper-button-prev::after {
+    background-image: url('../images/slider/arrow.svg');
+    background-repeat: no-repeat;
+}
+
+.slider__location {
+    margin-top: 20px;
+}
