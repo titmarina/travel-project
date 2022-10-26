@@ -5,12 +5,54 @@
     overflow: hidden;
 }
 
-.slider__Australia {
-    background-image: url('../images/slider/Mask\ Group.png');
-    width: 100%;
-    height: 100%;
-
-}
 .slider__location {
     margin-top: 20px;
+}
+
+.slider_1 {
+    background-image: url('../images/slider/Mask\ Group\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.slider_2 {
+    background-image: url('../images/slider/Mask\ Group\ \(2\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+
+} 
+
+.slider_3 {
+    background-image: url('../images/slider/pexels-photo-4388167\ 1.png');
+    background-repeat: no-repeat;
+    height: 500px;
+} 
+.slider_4 {
+    background-image: url('../images/slider/Mask\ Group\ \(4\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+} 
+.slider_5 {
+    background-image: url('../images/slider/Mask\ Group\ \(5\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+} 
+.slider_6 {
+    background-image: url('../images/slider/Mask\ Group\ 6.png');
+    background-repeat: no-repeat;
+    height:
+    500px;
+} 
+
+.title_contry {
+    font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 98.5%;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+
 }
