@@ -1,5 +1,69 @@
 .gallery {
     background-image: url('../images/main/bg_pacakges.png');
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.galerry_container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px auto;
+    grid-gap:10px 15px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.title-gallery {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 58px;
+    color: #0C0B10;
+}
+ 
+.gallery1 {
+    background-image: url('../images/gallery/pexels-photo-534164\ 1.png');
+    display: grid; /* включение гридов для центрирования текста */
+    min-height: 100vh; /* высота портфолио занимает один экран */
+    background-size: cover; /* растянуть картинку на весь блок */
+
+
+}
+
+.gallery2 {
+    background-image: url('../images/gallery/andrey-andreyev-dh8ONmfQyQQ-unsplash\ 1.png');
+    display: grid; /* включение гридов для центрирования текста */
+    min-height: 100vh; /* высота портфолио занимает один экран */
+    background-size: cover; /* растянуть картинку на весь блок */
+    background-position: center; /* расположение картинки в центре блока */
+    
+}
+
+.gallery3 {
+    background-image: url('../images/gallery/image\ 27.png');
+    display: grid; /* включение гридов для центрирования текста */
+    min-height: 100vh; /* высота портфолио занимает один экран */
+    background-size: cover; /* растянуть картинку на весь блок */
+    background-position: center; /* расположение картинки в центре блока */
+   
+}
+
+.gallery4 {
+    background-image: url('../images/gallery/image\ 29.png');
+    display: grid; /* включение гридов для центрирования текста */
+    min-height: 100vh; /* высота портфолио занимает один экран */
+    background-size: cover; /* растянуть картинку на весь блок */
+    background-position: center; /* расположение картинки в центре блока */
+    
+}
+
+.gallery3 {
+    background-image: url('../images/gallery/mikita-karasiou-mMzVTy2V1Do-unsplash\ 1.png');
+    display: grid; /* включение гридов для центрирования текста */
+    min-height: 100vh; /* высота портфолио занимает один экран */
+    background-size: cover; /* растянуть картинку на весь блок */
+    background-position: center; /* расположение картинки в центре блока */
+   
 }

@@ -63,7 +63,7 @@ overflow: hidden;
 .header__button::before {
    content: url('../images/button/Layer\ 3.png');
    position: relative;
-   left: 74px;
+   left: 64px;
    bottom: 24px;
 
 }
@@ -72,7 +72,7 @@ overflow: hidden;
    content: url('../images/button/Layer\ 4.png');
    position: relative;
     top: 23px;
-    right: 73px;
+    right: 64px;
 }
 
 

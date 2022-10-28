@@ -1,6 +1,9 @@
-.slider__container {
-    position: absolute;
+.gallery__slider {
     max-width: 1110px;
+    margin: 0 auto;
+}
+
+.slider__container {
     margin-top: 20px;
     overflow: hidden;
 }
@@ -10,49 +13,67 @@
 }
 
 .slider_1 {
-    background-image: url('../images/slider/Mask\ Group\ \(1\).png');
+    background-image: url('../images/slider/Mask\ Group.png');
     background-repeat: no-repeat;
     height: 500px;
 }
 
 .slider_2 {
+    background-image: url('../images/slider/Mask\ Group\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+
+.slider_3 {
     background-image: url('../images/slider/Mask\ Group\ \(2\).png');
     background-repeat: no-repeat;
     height: 500px;
+}
 
-} 
-
-.slider_3 {
-    background-image: url('../images/slider/pexels-photo-4388167\ 1.png');
-    background-repeat: no-repeat;
-    height: 500px;
-} 
 .slider_4 {
     background-image: url('../images/slider/Mask\ Group\ \(4\).png');
     background-repeat: no-repeat;
     height: 500px;
-} 
+}
+
 .slider_5 {
     background-image: url('../images/slider/Mask\ Group\ \(5\).png');
     background-repeat: no-repeat;
     height: 500px;
-} 
+}
+
 .slider_6 {
     background-image: url('../images/slider/Mask\ Group\ 6.png');
     background-repeat: no-repeat;
     height:
-    500px;
-} 
+        500px;
+}
+
+.wrapper_slider {
+    display: flex;
+    flex-direction: column;
+}
 
 .title_contry {
     font-family: 'Forum';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 98.5%;
-display: flex;
-align-items: flex-end;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 98.5%;
+    display: flex;
+    align-items: flex-end;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
+}
+
+.slider_location {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
 }
