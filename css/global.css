@@ -6,3 +6,10 @@ body {
     
  }
  
+ .main {
+    background: url('../images/main/bg_pacakges.png'),
+    url('../images/main/bg_book\ with\ us.png') 0 1500px no-repeat;
+    
+    background-size: cover, cover;
+   
+ }
