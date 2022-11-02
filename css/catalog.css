@@ -1,5 +1,6 @@
 .catalog {
-  
+
+ 
 }
 
 .title_catalog {
@@ -10,4 +11,13 @@
     line-height: 58px;
     text-align: center;
     color: #0C0B10;
-}
+    }
+
+    .catalog__container {
+        display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 100px);
+    max-width: 1110px;
+    margin: 0 auto;
+   grid-gap: 20px;
+    }

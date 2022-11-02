@@ -1,15 +1,14 @@
 body {
     width: 100%;
-   max-width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
-     background: #E2D3CE;
+    background: #E2D3CE;
+
+}
+
+.main {
+    background: url('../images/main/bg_book\ with\ us.png') center 1300px, url('../images/main/bg_pacakges.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     
- }
- 
- .main {
-    background: url('../images/main/bg_pacakges.png'),
-    url('../images/main/bg_book\ with\ us.png') 0 1500px no-repeat;
-    
-    background-size: cover, cover;
-   
- }
+}
