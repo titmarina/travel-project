@@ -1,7 +1,4 @@
-.catalog {
-
- 
-}
+.catalog {}
 
 .title_catalog {
     font-family: 'Forum';
@@ -11,13 +8,80 @@
     line-height: 58px;
     text-align: center;
     color: #0C0B10;
-    }
+}
 
-    .catalog__container {
-        display:grid;
+.catalog__container {
+    display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 100px);
+    grid-template-rows: repeat(8, 50px);
     max-width: 1110px;
     margin: 0 auto;
-   grid-gap: 20px;
-    }
+    grid-gap: 20px;
+}
+
+.catalog1 {
+    background-image: url('../images/catalog/1.png');
+    display: grid;
+    /* включение гридов для центрирования текста */
+    background-size: cover;
+    /* растянуть картинку на весь блок */
+    grid-column: 1/5;
+    grid-row: 1/4;
+    border-radius: 3%;
+}
+
+.catalog2 {
+    background-image: url('../images/catalog/2.png');
+    display: grid;
+    /* включение гридов для центрирования текста */
+    background-size: cover;
+    /* растянуть картинку на весь блок */
+    grid-column: 5/9;
+    grid-row: 1/4;
+    border-radius: 3%;
+}
+
+.catalog3 {
+    background-image: url('../images/catalog/3.png');
+    display: grid;
+    /* включение гридов для центрирования текста */
+    background-size: cover;
+    /* растянуть картинку на весь блок */
+    grid-column: 1/5;
+    grid-row: 4/7;
+    border-radius: 3%;
+}
+
+.catalog4 {
+    background-image: url('../images/catalog/4.png');
+    display: grid;
+    /* включение гридов для центрирования текста */
+    background-size: cover;
+    /* растянуть картинку на весь блок */
+    grid-column: 5/9;
+    grid-row: 4/7;
+    border-radius: 3%;
+}
+
+.catalog5 {
+    background-image: url('../images/catalog/5.png');
+    display: grid;
+    /* включение гридов для центрирования текста */
+    background-size: cover;
+    /* растянуть картинку на весь блок */
+    grid-column: 1/5;
+    grid-row: 7/12;
+    border-radius: 3%;
+}
+
+.catalog6 {
+    background-image: url('../images/catalog/6.png');
+    display: grid;
+    /* включение гридов для центрирования текста */
+    background-size: cover;
+    /* растянуть картинку на весь блок */
+    grid-column: 5/9;
+    grid-row: 7/12;
+    border-radius: 3%;
+}
+

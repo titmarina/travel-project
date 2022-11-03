@@ -3,12 +3,11 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     background: #E2D3CE;
-
 }
 
 .main {
-    background: url('../images/main/bg_book\ with\ us.png') center 1300px, url('../images/main/bg_pacakges.png');
-    background-size: cover;
+    background: url('../images/main/bg_book\ with\ us.png') center 1800px, url('../images/main/bg_pacakges.png') center 500px, url('../images/main/bg_whyluxtrip.png') center;
+    background-size: 100%;
     background-repeat: no-repeat;
     
 }
