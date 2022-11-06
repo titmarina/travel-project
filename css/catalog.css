@@ -1,5 +1,17 @@
-.catalog {}
+.catalog {
+    margin-top: 250px;
+}
 
+.catalog__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cstslog__decoration_rhombus {
+    margin:-215px 704px 0;
+}
 .title_catalog {
     font-family: 'Forum';
     font-style: normal;
@@ -8,6 +20,7 @@
     line-height: 58px;
     text-align: center;
     color: #0C0B10;
+    margin-top: -154px;
 }
 
 .catalog__container {
@@ -28,7 +41,15 @@
     grid-column: 1/5;
     grid-row: 1/4;
     border-radius: 3%;
+    transition: 1s;
+    /* Время эффекта */
 }
+
+.catalog1:hover {
+    transform: scale(1.1);
+    /* Увеличиваем масштаб */
+}
+
 
 .catalog2 {
     background-image: url('../images/catalog/2.png');
@@ -39,6 +60,14 @@
     grid-column: 5/9;
     grid-row: 1/4;
     border-radius: 3%;
+    transition: 1s;
+    /* Время эффекта */
+}
+
+.catalog2:hover {
+    transform: scale(1.1);
+    /* Увеличиваем масштаб */
+
 }
 
 .catalog3 {
@@ -50,6 +79,13 @@
     grid-column: 1/5;
     grid-row: 4/7;
     border-radius: 3%;
+    transition: 1s;
+    /* Время эффекта */
+}
+
+.catalog3:hover {
+    transform: scale(1.1);
+    /* Увеличиваем масштаб */
 }
 
 .catalog4 {
@@ -61,6 +97,13 @@
     grid-column: 5/9;
     grid-row: 4/7;
     border-radius: 3%;
+    transition: 1s;
+    /* Время эффекта */
+}
+
+.catalog4:hover {
+    transform: scale(1.1);
+    /* Увеличиваем масштаб */
 }
 
 .catalog5 {
@@ -72,6 +115,13 @@
     grid-column: 1/5;
     grid-row: 7/12;
     border-radius: 3%;
+    transition: 1s;
+    /* Время эффекта */
+}
+
+.catalog5:hover {
+    transform: scale(1.1);
+    /* Увеличиваем масштаб */
 }
 
 .catalog6 {
@@ -83,5 +133,11 @@
     grid-column: 5/9;
     grid-row: 7/12;
     border-radius: 3%;
+    transition: 1s;
+    /* Время эффекта */
 }
 
+.catalog6:hover {
+    transform: scale(1.1);
+    /* Увеличиваем масштаб */
+}

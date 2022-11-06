@@ -1,0 +1,80 @@
+.luxTrips_title {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.title__luxTrips {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 58px;
+    padding: 30px;
+}
+
+.subtitle__luxTrips {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.8%;
+    padding: 30px;
+}
+
+.luxTrips__group-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.luxTrips_title2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.title__luxTrips2 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 30px;
+}
+
+.subtitle__luxTrips2 {
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 179.8%;
+padding: 30px;
+}
+
+.luxTrips2-img {
+margin: -150px -320px 0 0;
+padding: 50px;
+}
+
+.luxTrips_title3 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title__luxTrips3 {
+    font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+}

@@ -1,13 +1,18 @@
 body {
     width: 100%;
-    max-width: 1920px;
+    max-width: 1520px;
     margin: 0 auto;
     background: #E2D3CE;
 }
 
 .main {
-    background: url('../images/main/bg_book\ with\ us.png') center 1800px, url('../images/main/bg_pacakges.png') center 500px, url('../images/main/bg_whyluxtrip.png') center;
+    background: url('../images/main/bg_book\ with\ us.png') center 1800px, url('../images/main/bg_pacakges.png') center 500px, url('../images/main/bg_whyluxtrip.png') center 3290px, url('../images/main/clouds.png') center 4800px;
     background-size: 100%;
     background-repeat: no-repeat;
     
+}
+
+.main_container {
+    max-width: 1110px;
+    margin: 0 auto;
 }
