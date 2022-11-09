@@ -54,8 +54,14 @@
 .wrapper_slider {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 10px;
 }
 
+.slider_location-img {
+    margin-top: 255px;
+}
 .title_contry {
     font-family: 'Forum';
     font-style: normal;
@@ -64,9 +70,7 @@
     line-height: 98.5%;
     display: flex;
     align-items: flex-end;
-
     color: #FFFFFF;
-
 }
 
 .slider_location {
@@ -76,19 +80,9 @@
     font-size: 12px;
     line-height: 16px;
     color: #FFFFFF;
+
 }
 
 
-:root {
-    --cover-timing: 0.5s; 
-    --cover-ease: cubic-bezier(0.66, 0.08, 0.19, 0.97);
-    --cover-stagger: 0.15s;
-    
-    --text-timing: .75s;
-    --text-stagger: 0.015s;
-    --text-ease: cubic-bezier(0.38, 0.26, 0.05, 1.07);
-    
-    --title-stagger: 0.05s;
-    --highlight: white;
-  }
+
   

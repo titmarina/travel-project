@@ -37,8 +37,13 @@
     background: transparent;
     cursor: pointer;
     margin-top: 30px;
-    
+       
 }
+
+.button__gallery {
+    background: rgba(255, 255, 255, .5);
+ }
+ 
  
 .gallery1 {
     background-image: url('../images/gallery/pexels-photo-534164\ 1.png');

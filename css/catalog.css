@@ -140,4 +140,8 @@
 .catalog6:hover {
     transform: scale(1.1);
     /* Увеличиваем масштаб */
+} 
+.button__help {
+    text-decoration: none;
+    color: black;
 }

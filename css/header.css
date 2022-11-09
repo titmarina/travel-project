@@ -50,10 +50,7 @@ overflow: hidden;
    background-image: url('../images/button/Subtract.png');
    height: 40px;
    left: 89%;
-   border: none;
-   background-position: center;
-   background-repeat: no-repeat;
-}
+ }
 
 
 .header__button:hover {
