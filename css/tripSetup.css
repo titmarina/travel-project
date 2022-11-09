@@ -1,3 +1,9 @@
+.tripSetup__container {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+
 .title__tripSetup {
     font-family: 'Forum';
     font-style: normal;
@@ -13,6 +19,16 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px
+}
+
+.tripSetup__categories2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 32px;
+    margin-right: 19px;
 }
 
 .tripSetup_vector {}
@@ -31,4 +47,66 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 179.8%;
+}
+
+.line {
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    width: 0;
+    height: 77px;
+    margin-left: 86px;
+    margin-top: -14px;
+}
+
+.request {
+    margin-top: 58px;
+}
+
+.request_button {
+    width: 540px;
+    height: 55px;
+
+    background: #0C0B10;
+    border-radius: 74px;
+
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.request__decoration {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 21px;
+}
+
+.request__decoration-rombus {
+    margin-left: 240px;
+}
+
+.payment {
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 179.8%;
+text-align: center;
+margin: 0;
+}
+
+.box__email-img {
+margin-top: 170px;
+margin-left: -260px;
+}
+
+.box__email-decoration {
+    margin-top: 170px;
+margin-left: -260px;
 }
