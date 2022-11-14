@@ -106,17 +106,21 @@
     display: inline-block;
 }
 
-.box__email {
-    background: url('../images/tripSetup/img.png'), url('../images/tripSetup/border.svg') top center / 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
-   
-   
+.box__email-fon {
+    margin-top: -549px;
     
+  
+
+}
+.box__email-border {
+  margin-top: 83px;
+  margin-left: 20px;  
+
 }
 
 .box__email-grouTtitle {
     margin-left: 210px;
+    margin-top: -546px;
 }
 
 .box__email-title {
@@ -165,7 +169,7 @@ form {
 
 .box__email-button {
     width: 330px;
-    height: 55px;
+    height: 59px;
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 74px;
