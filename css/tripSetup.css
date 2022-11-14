@@ -1,6 +1,4 @@
 .tripSetup__container {
-    max-width: 550px;
-    margin: 0 auto;
 }
 
 
@@ -54,12 +52,13 @@
     border: 1px solid #FFFFFF;
     width: 0;
     height: 77px;
-    margin-left: 86px;
+    margin-left: 226px;
     margin-top: -14px;
 }
 
 .request {
     margin-top: 58px;
+    margin-left: 307px;
 }
 
 .request_button {
@@ -93,20 +92,99 @@
 
 .payment {
     font-family: 'Manrope';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 179.8%;
-text-align: center;
-margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.8%;
+    margin-left: 145px;
+  
 }
 
-.box__email-img {
-margin-top: 170px;
-margin-left: -260px;
+/*Секция email */
+
+.wrapper-box__email {
+    display: inline-block;
 }
 
-.box__email-decoration {
-    margin-top: 170px;
-margin-left: -260px;
+.box__email {
+    background: url('../images/tripSetup/img.png'), url('../images/tripSetup/border.svg') top center / 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+   
+    
 }
+
+.box__email-grouTtitle {
+    margin-left: 210px;
+}
+
+.box__email-title {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.box__email-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.8%;
+    color: #FFFFFF;
+}
+
+
+form {
+    display: flex;
+}
+
+.box__email-Search {
+    margin: 50px 0 0 210px;
+}
+
+.box__email-input {
+    width: 486px;
+    height: 55px;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    border-radius: 95px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.8%;
+    color: #0C0B10;
+
+}
+
+.box__email-button {
+    width: 330px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 74px;
+    cursor: pointer;
+    margin-left: -106px;
+    z-index: 1;   
+}
+ 
+ .box__email-button::before {
+    content: url('../images/tripSetup/Layer.svg');
+    position: relative;
+    left: 64px;
+    bottom: 38px;
+ 
+ }
+ 
+ .box__email-button::after {
+    content: url('../images/tripSetup/Layer\ 1.svg');
+    position: relative;
+    top: 41px;
+    right: 56px;
+ }
