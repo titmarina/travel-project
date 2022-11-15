@@ -1,3 +1,11 @@
+.reviews__title-hgroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
 .reviews__title {
     font-family: 'Forum';
     font-style: normal;
@@ -5,5 +13,11 @@
     font-size: 60px;
     line-height: 58px;
     text-align: center;
-    margin-top: 200px;
+
     }
+
+    .revirws__decoration_rhombus {
+        position: absolute;
+        z-index: -1;
+    }
+    
