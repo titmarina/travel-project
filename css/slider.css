@@ -16,7 +16,7 @@
     background-image: url('../images/slider/Mask\ Group.png');
     background-repeat: no-repeat;
     height: 500px;
-    
+
 }
 
 .slider_2 {
@@ -62,6 +62,7 @@
 .slider_location-img {
     margin-top: 255px;
 }
+
 .title_contry {
     font-family: 'Forum';
     font-style: normal;
@@ -83,6 +84,18 @@
 
 }
 
+/* slider 2 */
 
+.swiper {}
 
-  
+.slider__decoration {
+    width: 200px;
+    height: 400px;
+    background: #E2D3CE;
+    background: rgba(226, 211, 206, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+
+}

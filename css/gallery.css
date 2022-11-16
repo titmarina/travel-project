@@ -24,7 +24,7 @@
     margin: 0;
 }
 
-.button__galerry {
+.button__gallery {
     font-family: 'Forum';
     font-weight: 400;
     font-size: 16px;
@@ -40,10 +40,17 @@
        
 }
 
-.button__gallery {
-    background: rgba(255, 255, 255, .5);
+.button__gallery:hover {
+    background: rgba(255, 252, 252, 0.5);
+    border: 3px dotted #dfe2e3;
+    transform: scale(1.1);
+   
  }
  
+ .button__gallery-prev {
+    color: #0C0B10;
+    text-decoration: none;
+ }
  
 .gallery1 {
     background-image: url('../images/gallery/pexels-photo-534164\ 1.png');
