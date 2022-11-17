@@ -2,7 +2,9 @@ body {
     width: 100%;
     max-width: 1520px;
     margin: 0 auto;
-    background:  #E2D3CE;;
+    background:  #E2D3CE;
+    font-family: 'Manrope';
+    font-style: normal;
 }
 
 .main {

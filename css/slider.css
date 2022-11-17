@@ -88,14 +88,31 @@
 
 .swiper {}
 
+.swiper2__container {
+    overflow: hidden;
+
+}
+
 .slider__decoration {
-    width: 200px;
+    width: 350px;
     height: 400px;
-    background: #E2D3CE;
-    background: rgba(226, 211, 206, 0.2);
-    border: 1px solid #FFFFFF;
-    backdrop-filter: blur(10px);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 10px;
+
+    background: url('../images/slider/border_testi.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.avatar {
+    margin: 30px 0px 0 10px;
+}
+
+.slider__text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 37px;
 
 }
