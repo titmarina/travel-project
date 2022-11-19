@@ -43,33 +43,41 @@
 
 
 .contact__submit {
-    background: #0C0B10;
-    border-radius: 74px;
-
+    width: 254px;
+    background-image: url('../images/contact/Rectangle\ 30.svg');
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: 'Forum';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 26px;
     text-align: center;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: -42px;
+    margin-left: 426px;
+    cursor: pointer;
+}
+    
 
+.contact__button {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
 }
 
 .contact__decoration {}
 
-.contact__decoration-rombus {}
-
-.request__decoration-rombus {}
-
-.contact__submit::before {
-    content: url('');
-
+.contact__decoration-fon {
+    margin-top: -52px;
 }
 
-.contact__submit::after {
-    content: url('');
+.contact__decoration-rombus {
+    margin: 0px;
+}
 
+
+.contact__decoration-rombus2 {
+    margin: 13px 0 100px 0;
 }
