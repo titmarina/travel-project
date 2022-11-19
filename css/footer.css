@@ -1,4 +1,102 @@
 .logo__footer {
-    margin: 116px 112px 88px 425px;
+    margin: 180px 112px 155px 425px;
 
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer__navigation-list {
+    display: flex;
+    max-width: 745px;
+    left: -7px;
+    bottom: 411px;
+}
+
+
+.footer__navigation-list-item {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.footer__navigetion-link {
+    padding: 10px;
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer__navigetion-link:hover {
+    background-image: url('../images/blok-1/icon.png');
+    background-repeat: no-repeat;
+    background-position: center top 25px;
+}
+
+
+.footer__button {
+    display: flex;
+
+    height: 40px;
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    background: transparent;
+    cursor: pointer;
+    transition: background .5s;
+    background-repeat: no-repeat;
+    
+    margin-top: -9px;
+}
+
+
+.footer__button:hover {
+    background: rgba(255, 255, 255, .5);
+}
+
+.footer__button::before {
+    content: url('../images/button/Layer\ 3.png');
+    position: relative;
+    left: 62px;
+    bottom: 21px;
+
+}
+
+.footer__button::after {
+    content: url('../images/button/Layer\ 4.png');
+    position: relative;
+    top: 20px;
+    right: 66px;
+}
+
+.footer__copyright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.footer__copyright-text {
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+.footer__company-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
 }
