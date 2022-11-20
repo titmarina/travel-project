@@ -1,4 +1,4 @@
-const swiper2 = new Swiper2(".mySwiper", {
+new swiper2 = new Swiper2(".mySwiper2", {
   slidesPerView: 2,
   spaceBetween: 10,
   

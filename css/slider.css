@@ -1,6 +1,7 @@
 .gallery__slider {
     max-width: 1110px;
     margin: 0 auto;
+
 }
 
 .slider__container {
@@ -23,7 +24,6 @@
     background-image: url('../images/slider/Mask\ Group\ \(1\).png');
     background-repeat: no-repeat;
     height: 500px;
-
 }
 
 .slider_3 {
@@ -47,8 +47,8 @@
 .slider_6 {
     background-image: url('../images/slider/Mask\ Group\ 6.png');
     background-repeat: no-repeat;
-    height:
-        500px;
+    height: 500px;
+        
 }
 
 .wrapper_slider {
@@ -56,11 +56,11 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .slider_location-img {
-    margin-top: 255px;
+    margin-top: 295px;
 }
 
 .title_contry {
@@ -69,9 +69,9 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 98.5%;
-    display: flex;
-    align-items: flex-end;
     color: #FFFFFF;
+
+    margin: 0;
 }
 
 .slider_location {
@@ -83,6 +83,26 @@
     color: #FFFFFF;
 
 }
+
+.price {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+span {
+
+    font-size: 24px;
+    line-height: 98.5%;
+    color: #FFFFFF;
+}
+
+
 
 /* slider 2 */
 
@@ -116,5 +136,4 @@
     line-height: 20px;
     padding: 10px;
     margin-top: -20px
-
 }
